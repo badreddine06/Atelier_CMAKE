@@ -34,7 +34,7 @@ int main(int argc, char *argv[]){
 	{
 		int a = atoi(argv[2]);
 		int r = _car(a);
-		printf("%d", r);
+		printf("%1f", r);
 	}
 	else {
 		printf("Erreur de parametres");
